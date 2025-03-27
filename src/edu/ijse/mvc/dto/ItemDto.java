@@ -98,6 +98,11 @@ public class ItemDto {
         this.qoh = qoh;
     }
 
+    @Override
+    public String toString() {
+        return "ItemDto{" + "itemCode=" + itemCode + ", description=" + description + ", packSize=" + packSize + ", unitPrice=" + unitPrice + ", qoh=" + qoh + '}';
+    }
+
   
     
 }
